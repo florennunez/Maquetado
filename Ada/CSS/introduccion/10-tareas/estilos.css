@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 60px;;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40 px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.2em; /* Tamaño de fuente distinto para los títulos de movimientos */
+}
+
+.azul {
+    background-color: rgb(48, 160, 197);
+}
+
+.ingreso {
+    color: green; /* Color verde para ingresos */
+}
+
+.salida {
+    color: red; /* Color rojo para salidas */
+}
+section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+}

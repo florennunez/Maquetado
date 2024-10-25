@@ -1,0 +1,14 @@
+h1{
+    font-size: 40px;
+    font-family: 'monospace';
+    display: flex;
+    justify-content: end;
+    background-color: rgb(83, 146, 218);
+}
+#paisaje{
+    background-color: rgb(56, 223, 84);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}

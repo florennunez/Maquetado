@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(194, 188, 188);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 50%;
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.notificacion{
+    max-width: 100px;
+    min-width: 100px;
+    margin-bottom: 0;
+}
+
+p{
+    color: rgb(75, 69, 69);
+}
+
+button{
+    background-color: rgb(64, 116, 230);
+    color: white;
+    border-radius: 10%;
+    border: rgb(64, 116, 230);
+    width: 150px;
+    height: 35px;
+}

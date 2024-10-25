@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    font-size: 70px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.circulo{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+div .dado{
+    display: flex;
+    background-color: white;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#uno{
+    justify-content: center;
+    align-items: center;
+}
+
+#dos .circulo1{
+    justify-content: flex-start;
+}
+
+#dos .circulo2{
+    align-self: flex-end;
+    justify-content: flex-end
+}
+
+#dos .centro-blanco{
+    width: 60px;
+}
+
+#tres {
+    flex-direction: column;
+}
+

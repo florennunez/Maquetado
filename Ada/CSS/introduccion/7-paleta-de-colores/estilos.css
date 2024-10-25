@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif; /* Cambia la tipografía por defecto */
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de fuente distinto para el título principal */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamaño de fuente distinto para los subtítulos */
+}
+
+ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif; /* Cambia la tipografía por defecto */
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de fuente distinto para el título principal */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamaño de fuente distinto para el subtítulo */
+}
+
+h3 {
+    font-size: 1.2em; /* Tamaño de fuente distinto para los títulos de movimientos */
+}
+
+.fecha {
+    font-size: 0.9em; /* Tamaño de letra más pequeño para la fecha */
+    color: lightgray; /* Color gris claro para la fecha */
+}
+
+.monto {
+    font-size: 1.1em; /* Tamaño de letra para el monto */
+}
+
+.ingreso {
+    color: green; /* Color verde para ingresos */
+}
+
+.salida {
+    color: red; /* Color rojo para salidas */
+}
+section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 0 20px;
+
+}

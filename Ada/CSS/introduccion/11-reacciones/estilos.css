@@ -1,0 +1,21 @@
+section{
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    font-size: 30px;
+}
+
+.fondo-gris{
+    background-color: gray;
+}
+
+.fondo-blanco{
+    background-color: white;
+}
+
+div{
+    display: flex;
+    justify-content: end;
+}

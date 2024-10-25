@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #f8f6f6;
+    font-family: "Prompt", sans-serif;
+}
+
+:root{
+    --back-base: #f8f6f6;
+    --back-nav: #f8f6f6;
+    --back-footer: #f8f6f6;
+    --back-grey: #bbbaba;
+    --back-violetita: #f8f6f6;
+    --negro: #838282;
+}
+
+nav{
+    background-color: #f8f6f6;
+    color: #050505;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: flex;
+    padding: 10px;
+}
+
+nav ul a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.hero {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: var(--back-base);
+    display: flex;
+}
+
+.hero-estilos {
+    font-family: "Prompt", sans-serif;
+    padding: 20px;
+}
+
+section #destacadas{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#destacadas{
+    width: 100%;
+    display: flex;
+}
+
+#destacadas div{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.destacadas-card{
+    height: auto;
+}
+
+.destacadas-card img{
+    min-width: 250px;
+    max-width: 400px;
+}
+
+#servicios{
+    width: 100%;
+    display: flex;
+}

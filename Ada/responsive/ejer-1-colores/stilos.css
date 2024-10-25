@@ -1,0 +1,31 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    font-size: 40px;
+    font-family: kanit;
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+    body{
+        background-color: lightslategray;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: lightcoral;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}

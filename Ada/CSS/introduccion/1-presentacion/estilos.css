@@ -1,0 +1,23 @@
+h1{
+    font-size: 120px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 48px;
+    font-family: "Caveat", cursive;
+    font-weight: 300;
+}
+
+#programadora{
+    background-color: aquamarine;
+}
+
+#futbolista{
+    background-color: lightcoral;
+}
+
+#poledancer{
+    background-color: lightsteelblue;
+}
